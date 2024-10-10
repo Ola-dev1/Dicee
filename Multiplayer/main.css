@@ -1,0 +1,80 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.container-body {
+  border: 2px solid rgb(31, 9, 9);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  grid-template-columns: repeat(2, 20rem);
+  text-align: center;
+  width: 60%;
+  justify-content: center;
+  margin-left: 15rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin-left: 3rem; */
+}
+
+body {
+  background-color: #1e5ab9;
+  /* background: linear-gradient(yellow, top to bottom); */
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.btn-one {
+  margin-top: 5%;
+  color: green;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  background-color: red;
+  /* width: 10px;
+  height: 10px; */
+  padding: 10px;
+  margin-inline: 10rem;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
